@@ -16,8 +16,8 @@ article {
   text-align: center;
 }
 
-article h1.info-header {
-  margin-bottom:  1.25em;
+.info-bit-text {
+  margin-top:  1.25em;
 }
 
 footer {
@@ -26,8 +26,23 @@ footer {
 }
 
 .image-set {
-  background:  -webkit-image-set(url(../img/gabe_1x.png) 1x, url(../img/gabe_2x.png) 2x);
+  background:  -webkit-image-set(url(../img/kevin.jpg) 1x, url(../img/gabe_2x.png) 2x);
   height: 40px;
   width: 40px;
   border-radius: 50%;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.flex-container-button {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+
 }
