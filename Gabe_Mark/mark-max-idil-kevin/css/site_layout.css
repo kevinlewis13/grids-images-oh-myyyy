@@ -1,7 +1,6 @@
 
 main {
-  width: 81.25em;
-  margin: auto;
+  width: 100%;
 }
 
 .login-reg {
@@ -24,4 +23,11 @@ article h1.info-header {
 footer {
   padding: .3125em;
   text-align: center;
+}
+
+.image-set {
+  background:  -webkit-image-set(url(../img/gabe_1x.png) 1x, url(../img/gabe_2x.png) 2x);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }

@@ -2,8 +2,6 @@
 
 .main-welcome {
   text-align: center;
-  padding: 6.25em 0 3.75em 0;
-  width: 50%;
   margin: auto;
 }
 
@@ -50,7 +48,7 @@
 
 /*POINTER TEXTURE*/
 
-.triangle-up {
+/*.triangle-up {
   margin-left: 34.375em;
   width: 0;
   height: 0;
@@ -61,4 +59,4 @@
 
 .triangle-chat {
   margin-left: 43.75em;
-}
+}*/
